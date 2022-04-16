@@ -1,0 +1,17 @@
+
+    
+
+.navbar {
+    background-color: transparent;
+    color: white;
+    text-decoration:none;
+    position: fixed; /*menu fijo y hara que varie en ancho*/
+    width: 100vw; /* para que recupere el tamaño*/
+    z-index: 1; /*  para que siempre se superponga ante cualquier otro elemento, lleva hacia adelante*/
+}
+
+ .nav-item a {
+    
+    color: white;
+
+} 
