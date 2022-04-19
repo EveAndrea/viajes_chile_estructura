@@ -1,4 +1,12 @@
-
+body{
+    margin: auto;
+    padding: auto;
+    color: #fff;
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+  
+    
+}
     
 
 .navbar {
@@ -7,11 +15,63 @@
     text-decoration:none;
     position: fixed; /*menu fijo y hara que varie en ancho*/
     width: 100vw; /* para que recupere el tamaño*/
-    z-index: 1; /*  para que siempre se superponga ante cualquier otro elemento, lleva hacia adelante*/
-}
+    z-index: 1;  /*para que siempre se superponga ante cualquier otro elemento, lleva hacia adelante */
+ }
 
  .nav-item a {
     
     color: white;
 
-} 
+}  
+
+/*hero-section*/
+
+#hero-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*quienes somos*/
+#quienessomos {
+    background-color: black;
+    color: aliceblue;
+    
+}
+
+#quienessomos i{
+    background-color: deepskyblue;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+}
+
+/*destacado*/
+#destacado{
+    background-color: black;
+    
+}
+
+#destacado p {
+    background-color: deepskyblue;
+   color: aliceblue;
+}
+
+/*cards*/
+#destacado .card-body {
+    background-color: deepskyblue;
+    
+}
+
+/*footer*/
+
+#footer {
+    background-color: deepskyblue;
+    
+}
+
+#footer a{
+    color: #fff;
+    text-decoration: none;
+}
